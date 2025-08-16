@@ -1,0 +1,5 @@
+console.log('hello world')
+console.log('i am a good boy')
+console.log("i hava master's in degree")
+console.log(' i am the "the best"')
+console.log('i am \n learning \n java scripts \n from krish tech you tube channel')
