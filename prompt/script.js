@@ -1,6 +1,12 @@
-username = prompt("what is your name");
-console.log(`welcome ${username} thank you for visiting my page`);
-weight = prompt("enter your weight", "kg");
-height = prompt("enter your height", "cm");
-console.log(weight);
-console.log(height);
+let username = prompt("What is your name?");
+console.log(`Welcome ${username}, thank you for visiting my page!`);
+
+let weight = Number(prompt("Enter your weight in kg"));
+let height = Number(prompt("Enter your height in cm")) / 100; // Convert cm to meters
+
+console.log(`Weight: ${weight} kg`);
+console.log(`Height: ${height} m`);
+
+let bmi = (weight / height ** 2).toFixed(2);
+console.log(`Your BMI is: ${bmi}`);
+
